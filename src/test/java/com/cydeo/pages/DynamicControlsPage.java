@@ -27,6 +27,9 @@ public class DynamicControlsPage {
     public WebElement message;
 
     @FindBy(xpath = "//button[.='Enable']")
-    public WebElement enableButton
+    public WebElement enableButton;
+
+    @FindBy(css = "input[type='text']")
+    public WebElement inputBox;
 
 }
