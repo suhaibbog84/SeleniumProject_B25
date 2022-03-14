@@ -16,7 +16,6 @@ public class POMPractices {
         libraryLoginPage = new LibraryLoginPage();
     }
 
-
     @Test
     public void required_field_error_message_test(){
         //TC #1: Required field error message test
