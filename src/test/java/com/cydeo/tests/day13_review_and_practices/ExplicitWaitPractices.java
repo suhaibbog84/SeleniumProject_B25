@@ -36,6 +36,7 @@ public class ExplicitWaitPractices {
         try {
             Assert.assertTrue(!dynamicControlsPage.checkBox.isDisplayed());
 
+            //assertFalls will pass the test if the boolean value return is: false
             Assert.assertFalse(dynamicControlsPage.checkBox.isDisplayed());
         }catch (NoSuchElementException n){
             Assert.assertTrue(true);
